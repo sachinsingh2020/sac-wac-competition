@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+/* ########### utility classes ##############  */
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+
+/* ############## navbar styling ###########  */
+.navbar {
+    /* box-shadow: 0px 5px 10px 5px #888; */
+    height: 8rem;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+}
+
+.navbar-container .logo {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+
+}
+
+.navbar-container .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-items a {
+    padding: 0 5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* ########## showcase area styling ############  */
+.showcase {
+    z-index: 1;
+    background: url(./image2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.game:hover{
+    color:#00f4d4;
+}
+/* ###### faltu #########  */
+.bg-dark {
+    background: black;
+    color: white;
+}
+
+/* ######### ****** ######### */
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.178);
+    position: relative;
+}
+
+.showcase-container .showcase-heading {
+    width: 50%;
+    display: flex;
+    text-align: center;
+}
+
+.showcase-container .showcase-heading h2 {
+    font-size: 7rem;
+    color: white;
+    padding-bottom: 1.2rem;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.showcase-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.showcase-container .showcase-btn a {
+    list-style-type: none;
+}
+
+.imglogo {
+    height: 7rem;
+    width: 7rem;
+}
+
+.nav-button {
+    background-color: #015898;
+    color: white;
+    border: 1px solid rgb(67, 170, 210);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    height: 4rem;
+}
+
+.showcase-inbox {
+    width: 60rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+
+.showcase-inbox input {
+    border: none;
+    outline: none;
+    width: 40rem;
+    background-color: transparent;
+    border-bottom: 3px solid white;
+    color: white;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+
+}
+.showcase-inbox input::placeholder {
+    color: white; /* Set placeholder color to white */
+    font-family: 'Fira Sans Condensed', sans-serif;
+   font-size: 18px;
+   /* font-weight: bold; */
+  }
+
+
+.showcase-inbox button {
+    background-color: #00f4d4;
+    color: #046e60;
+    border: 1px solid rgb(67, 170, 210);
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    height: 5rem;
+}
+
+.showcase-bottom{
+    position: absolute;
+    bottom: 2rem;
+    width: 120rem;
+    color: white;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 2.2rem;
+}
+.showcase-bottom-icon{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background-color: #00f4d4;
+}
